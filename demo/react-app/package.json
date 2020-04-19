@@ -4,13 +4,13 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "jest ./tests/",
     "dev": "webpack --watch --config ./scripts/webpack.dev.config.js",
     "start": "webpack-dev-server --watch --config ./scripts/webpack.dev.config.js",
     "build": "webpack --config ./scripts/webpack.prod.config.js"
   },
   "author": "",
-  "license": "ISC",
+  "license": "MIT",
   "dependencies": {
     "react": "^16.13.1",
     "react-dom": "^16.13.1"
@@ -20,7 +20,12 @@
     "@babel/preset-env": "^7.9.5",
     "@babel/preset-react": "^7.9.4",
     "babel-loader": "^8.1.0",
+    "bufferutil": "^4.0.1",
+    "canvas": "^2.6.1",
+    "jest": "^25.3.0",
+    "react-test-renderer": "^16.13.1",
     "uglifyjs-webpack-plugin": "^2.2.0",
+    "utf-8-validate": "^5.0.2",
     "webpack": "^4.42.1",
     "webpack-cli": "^3.3.11",
     "webpack-dev-server": "^3.10.3",
