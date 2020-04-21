@@ -1,1 +1,1 @@
-# f2e-testing-note
+# f2e-testing-manual
