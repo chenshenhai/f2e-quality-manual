@@ -14,13 +14,12 @@ describe( '开始测试demo的GET请求', ( ) => {
       .get('/getString.json')
       .expect(200)
       .end(( err, res ) => {
-        if (err) {
-          throw err;
-        }
+        if (err) return done(err);
+
         // 断言判断结果是否为object类型
-        expect(res.body).to.be.an('object')
-        expect(res.body.success).to.be.an('boolean')
-        expect(res.body.data).to.be.an('string')
+        expect(res.body).to.be.an('object');
+        expect(res.body.success).to.be.an('boolean');
+        expect(res.body.data).to.be.an('string');
         done();
       });
   })

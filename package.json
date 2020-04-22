@@ -1,0 +1,22 @@
+{
+  "name": "f2e-testing-manual",
+  "version": "0.0.1",
+  "description": "",
+  "main": "test.js",
+  "scripts": {
+    "test": "npm install && node test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chenshenhai/f2e-testing-manual.git"
+  },
+  "author": "chenshenhai",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/chenshenhai/f2e-testing-manual/issues"
+  },
+  "homepage": "https://github.com/chenshenhai/f2e-testing-manual#readme",
+  "devDependencies": {
+    "koa-compose": "^4.1.0"
+  }
+}
