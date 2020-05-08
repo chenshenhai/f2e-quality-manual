@@ -1,6 +1,6 @@
 const supertest = require('supertest')
 const chai = require('chai')
-const app = require('./../src/index')
+const app = require('../src/index')
 
 const expect = chai.expect
 const request = supertest( app.listen() )
