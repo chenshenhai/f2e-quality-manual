@@ -1,5 +1,5 @@
 {
-  "name": "f2e-testing-manual",
+  "name": "f2e-quality-manual",
   "version": "0.0.1",
   "description": "",
   "main": "test.js",
@@ -8,14 +8,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/chenshenhai/f2e-testing-manual.git"
+    "url": "git+https://github.com/chenshenhai/f2e-quality-manual.git"
   },
   "author": "chenshenhai",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/chenshenhai/f2e-testing-manual/issues"
+    "url": "https://github.com/chenshenhai/f2e-quality-manual/issues"
   },
-  "homepage": "https://github.com/chenshenhai/f2e-testing-manual#readme",
+  "homepage": "https://github.com/chenshenhai/f2e-quality-manual#readme",
   "devDependencies": {
     "koa-compose": "^4.1.0"
   }
