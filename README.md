@@ -1,1 +1,1 @@
-# f2e-testing-manual
+# f2e-quality-manual
