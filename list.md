@@ -14,6 +14,8 @@
   - Server 
   - Benchmark
   - Files operation
+  - CLI
+  - MySQL
 
 
   
