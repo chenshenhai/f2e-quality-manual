@@ -16,6 +16,7 @@ describe('Screenshot testing', function() {
       let expected = (await jimp.read(fs.readFileSync(snapshotPicPath))).bitmap;
       let diff = actual;
       let failedPixel = pixelmatch(expected.data, actual.data, diff.data, actual.width, actual.height);
+      console.log('failedPixel ===', failedPixel);
       assert.ok(failedPixel === 0);
       done();
     }).catch(done);
