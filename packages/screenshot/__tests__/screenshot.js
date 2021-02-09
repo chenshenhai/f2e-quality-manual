@@ -10,6 +10,8 @@ const height = 200;
 
 module.exports = {
   createScreenshotBuffer,
+  width,
+  height,
 }
 
 async function createScreenshotBuffer(pagePath) {
