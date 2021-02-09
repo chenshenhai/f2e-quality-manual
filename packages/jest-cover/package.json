@@ -1,5 +1,5 @@
 {
-  "name": "jest-cover",
+  "name": "@f2e-test-note/jest-cover",
   "version": "0.0.1",
   "description": "",
   "main": "index.js",

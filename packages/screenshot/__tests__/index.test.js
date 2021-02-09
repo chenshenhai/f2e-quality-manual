@@ -9,7 +9,7 @@ const snapshotPicPath = path.join(__dirname, 'snapshot', 'page.png');
 
 describe('Screenshot testing', function() {
   it('testing...', function(done){
-    this.timeout(1000);
+    this.timeout(1000 * 60);
     createScreenshotBuffer('/index.html').then(async (buf) => {
 
       let actual = (await jimp.read(buf)).scale(1).quality(100).bitmap;

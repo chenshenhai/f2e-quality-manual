@@ -1,0 +1,11 @@
+{
+  "packages": [
+    "packages/document",
+    "packages/jest-cover",
+    "packages/jest-cover-ts",
+    "packages/koa-server",
+    "packages/react-app",
+    "packages/screenshot"
+  ],
+  "version": "0.0.0"
+}

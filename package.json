@@ -1,22 +1,25 @@
 {
-  "name": "f2e-quality-manual",
+  "name": "f2e-test-note",
   "version": "0.0.1",
   "description": "",
   "main": "test.js",
   "scripts": {
-    "test": "cnpm install && node test.js"
+    "test": "lerna bootstrap --no-ci && lerna run build && lerna run test",
+    "test:local": "lerna bootstrap --npm-client=cnpm && lerna run build && lerna run test",
+    "test:node": "cnpm install && node test.js"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/chenshenhai/f2e-quality-manual.git"
+    "url": "git+https://github.com/chenshenhai/f2e-test-note.git"
   },
   "author": "chenshenhai",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/chenshenhai/f2e-quality-manual/issues"
+    "url": "https://github.com/chenshenhai/f2e-test-note/issues"
   },
-  "homepage": "https://github.com/chenshenhai/f2e-quality-manual#readme",
+  "homepage": "https://github.com/chenshenhai/f2e-test-note#readme",
   "devDependencies": {
-    "koa-compose": "^4.1.0"
+    "koa-compose": "^4.1.0",
+    "lerna": "^3.22.1"
   }
 }
